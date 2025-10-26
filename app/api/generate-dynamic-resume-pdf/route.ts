@@ -542,7 +542,7 @@ Southern Polytechnic State University | USA
     const pdfBytes = await generateResumePdf(tailoredResume);
 
     // 5. Return PDF as response
-    const fileBase = `Zain_Abdeen_${company.replace(/[^a-zA-Z0-9_]/g, '_')}_${role.replace(/[^a-zA-Z0-9_]/g, '_')}`;
+    const fileBase = `Zackery_Jackson_${company.replace(/[^a-zA-Z0-9_]/g, '_')}_${role.replace(/[^a-zA-Z0-9_]/g, '_')}`;
     return new NextResponse(Buffer.from(pdfBytes), {
       status: 200,
       headers: {
